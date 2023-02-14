@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require controller modules.
-const { getAllUsers, addUser, getOneUser } = require('../controllers/users');
+const { getAllUsers, addUser, getOneUser } = require('../server/controllers/users');
 
 /// USERS ROUTES ///
 

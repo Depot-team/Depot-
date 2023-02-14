@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Require controller modules.
-const { getAllPosts, addPost, getOnePost } = require('../controllers/posts');
+const { getAllPosts, addPost, getOnePost } = require('../server/controllers/posts');
 
 /// POSTS ROUTES ///
 
