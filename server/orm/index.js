@@ -45,9 +45,7 @@ db.Fournisseur.hasMany(db.Product,{
   db.Fournisseur.belongsTo(db.Product,{
   foreignKey: "idF",
   as: "Fournisseur",
- 
 })
-
 
 
 module.exports = db;
